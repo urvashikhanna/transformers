@@ -578,7 +578,7 @@ def main():
         compute_metrics=compute_metrics,
     )
 
-    # Training
+    # Training the model
     if training_args.do_train:
         checkpoint = None
         if training_args.resume_from_checkpoint is not None:
